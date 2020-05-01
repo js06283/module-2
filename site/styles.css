@@ -1,0 +1,58 @@
+<style>
+            h1 {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                text-align: center;
+            }
+            h2 {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+
+            div{
+                position: relative;
+                border: 1px solid black;
+                box-sizing: border-box;
+                padding: 5px;
+                margin: auto;
+            }
+            p{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+            div.chicken{
+                background-color: lightsalmon;
+            }
+            div.beef{
+                background-color: lightseagreen;
+            }
+            div.sushi{
+                background-color: orange;
+            }
+            h2.chicken{
+                background-color: salmon;
+            }
+            h2.beef{
+                background-color: seagreen;
+            }
+            h2.sushi{
+                background: darkorange
+            }
+
+            @media(min-width: 992px){
+                .col-lg-4 {
+                    width: 33.33%;
+                    float: left;
+                }
+            }
+            @media(min-width: 768px) and (max-width: 991px){
+                .col-md-6 {
+                    width: 50% ;
+                    float: left;
+                }
+            }
+            @media(max-width: 767px){
+                .col-sm-12 {
+                    width: 100%;
+                    float: left;
+                    }
+            }
+
+        </style>
